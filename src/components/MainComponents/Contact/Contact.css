@@ -1,0 +1,32 @@
+.contacts{
+    padding: 150px 0;
+}
+label{
+    transform: translateY(20px);
+    transition: all 0.5s;
+    color: #1abc9c;
+}
+input{
+    width: 100%;
+    display: block;
+    outline: none !important;
+}
+.move{
+    transform: translateY(0);
+}
+.contacts h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 10px 0;
+}
+@media (min-width:500px) {
+    .contacts h2{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width:768px) {
+    .contacts h2{
+        font-size: 2rem;
+    }
+}

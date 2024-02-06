@@ -1,0 +1,78 @@
+.layer{
+    opacity: 0 ;
+    transition: all 0.5s;
+}
+.layer i {
+    cursor: pointer;
+}
+.port-img-container:hover .layer{
+    opacity: 1 !important;
+    background: #1abc9ce6;
+}
+.portfolio{
+    padding: 150px 0
+}
+.portfolio h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.selectImgContainer{
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+.selectImgContainer img{
+    width: 100%;
+}
+.layout{
+    background: #000000a6;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+@media (min-width:500px) {
+    .portfolio h2{
+        font-size: 1.5rem;
+    }
+    /* .selectImgContainer{
+        position: fixed;
+        width: 100%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        left: 50%;
+    } */
+}
+@media (min-width:678px) {
+    
+    .selectImgContainer{
+        width: 90%;
+    }
+}
+@media (min-width:768px) {
+    .portfolio h2{
+        font-size: 2rem;
+    }
+    .selectImgContainer{
+        width: 80%;
+    }
+}
+@media (min-width:992px) {
+    .selectImgContainer{
+        width: 60%;
+    }
+    
+}
+@media (min-width:1200px) {
+    .selectImgContainer{
+        width: 45%;
+    }
+    
+}

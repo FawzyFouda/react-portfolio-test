@@ -1,0 +1,24 @@
+nav{
+    background: #2c3e50;
+    position: fixed !important;
+    width: 100%;
+    transition: all 0.5s;
+    z-index: 2222;
+}
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FFF !important;
+}
+.nav-item a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.nav-link.active{
+    padding:8px;
+    background: #1abc9c;
+    color: #FFF !important;
+    border-radius: 5px;
+}

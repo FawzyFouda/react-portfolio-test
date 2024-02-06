@@ -1,0 +1,31 @@
+footer{
+    background: #2c3e50 !important;
+    color: #FFF;
+    padding: 70px 0;
+}
+footer a{
+    color: #FFF;
+}
+footer h2{
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+.web li{
+display: flex;
+border: 1px solid #FFF;
+width: 35px;
+height: 35px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+margin: 0 5px;
+}
+.bottom-footer{
+    color: #FFF;
+    background: #1a252f;
+    padding: 20px 0;
+}
+.bottom-footer p{
+    text-align: center;
+    margin: 0;
+}
