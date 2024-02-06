@@ -19,12 +19,9 @@ import './Nav.css'
     window.removeEventListener('scroll', this.handleScroll);
   }
 
-     handleScroll = () => {
+    handleScroll = () => {
       const scrollY = window.scrollY;
-      console.log(scrollY)
-      const navbarHeight = 70; // ارتفاع Navbar بدون تغيير اللون
-
-      // تحديث لون الخلفية بناءً على السكرول
+      const navbarHeight = 70;  
       if (scrollY > navbarHeight) {
         this.setState({ navbarPadding: '10px 0' });
       } else {
